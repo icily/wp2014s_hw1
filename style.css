@@ -1,0 +1,77 @@
+body {
+  margin: 1% 5% 1% 5%;
+  color: #000; 
+  border-radius: 0.5em;
+  border: 1em #fff;
+  box-shadow: rgb(155,155,155) 0px 1px 5px 0px;
+  line-height: 1.5;
+  font-family: 'Lato', '·L³n¥¿¶ÂÅé', sans-serif;
+}
+
+a:hover{
+  text-shadow: 0 1px 0 rgba(0,0,0,.2);
+}
+
+#logo img{
+  border-radius: 0.25em 0.25em 0em 0em;
+  margin: 0em 0em -0.7em 0em;
+  width: 100%
+}
+
+nav{
+  background: orange;
+  padding: 0em 0.5em 0em 0.5em;
+}
+
+nav ul{
+  display: block;
+  list-style: none;
+  padding: 0.1em;
+  overflow: hidden;
+  float: center;
+}
+
+nav ul li{
+  display: inline-block;
+  padding: 0.5em;
+}
+
+nav ul li a{
+  color: #fff;
+  text-decoration:none;
+  padding: 0.4em;
+  border-radius: 0.5em;
+}
+
+nav ul li a:hover{
+  background: white;
+  color: orange;
+}
+
+
+section{
+  padding: 0em 1.5em 0em 1.5em;
+}
+
+h1, h2, h3, h4, h5, h6{
+  letter-spacing: 0.03em;
+}
+
+
+h2 {
+  font-size: 1.3em;
+  text-align: left; 
+  color: #fc3039;
+}
+
+article ol li{
+  list-style: none;
+}
+
+footer{
+  text-align: center;
+  padding: 0em 1.5em 0em 1.5em;
+  background: #dca;
+  color: #fff;
+  border-radius: 0em 0em 0.25em 0.25em;
+}
